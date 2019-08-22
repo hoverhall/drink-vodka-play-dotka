@@ -1,0 +1,149 @@
+.App {
+  height: inherit;
+  background-color: #3a404d;
+  text-align: center;
+}
+
+.App-logo {
+  margin-left: 5px;
+  animation: App-logo-spin infinite 40s linear;
+  /* animation: App-logo-spin infinite 20s linear; */
+  height: 8vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  /* position: absolute; */
+  background-color: #282c34;
+  height: 100px;
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  /* justify-content: center; */
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.link {
+  text-decoration: none;
+  margin-left: 10px;
+  color: #ffffff;
+}
+
+.link-span {
+  font-family: 'New Rocker', cursive;
+  font-size: 50px;
+}
+
+.App-main {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.character-content {
+  margin: 20px;
+  width: 50vh;
+  height: auto;
+}
+
+.character-span {
+  font-family: 'New Rocker', cursive;
+  font-size: 20px;
+  color: #fff;
+}
+
+.dinamic-character-content{
+  width: 100%;
+  display: flex;
+  /* justify-content: space-around; */
+  flex-wrap: wrap;
+}
+
+.character-link {
+  text-decoration: none;
+  color: #fff;
+  font-family: 'New Rocker', cursive;
+}
+
+.character-item {
+  width: 70px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.character-logo {
+  width: 40px;
+  height: 40px;
+}
+
+.search-input, .search-btn {
+  padding: 5px;
+  margin: 5px;
+  border-radius: 10px;
+  font-size: 20px;
+  outline: none;
+}
+
+.search-input {
+  width: 85%;
+}
+
+.search-btn {
+  width: 10%;
+}
+
+.find-character {
+  width: 90%;
+  display: flex;
+  justify-content: space-between
+}
+
+.character-props {
+  float: left;
+  margin: 20px;
+}
+
+.character-name {
+  font-size: 30px;
+  font-family: 'New Rocker', cursive;
+  color: #fff;
+}
+
+.character-role {
+  font-size: 20px;
+  font-family: 'New Rocker', cursive;
+  color: #fff;
+}
+
+.roles, .tprops {
+  font-size: 20px;
+  font-family: 'New Rocker', cursive;
+  color: #fff;
+}
+
+.chosen {
+  background-color: #5d6985;
+  padding: 10px;
+}
+
+.chosen img {
+  height: 50px;
+  width: 50px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
